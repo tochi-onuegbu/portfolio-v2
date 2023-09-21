@@ -40,6 +40,7 @@
     "@faker-js/faker": "^8.0.2",
     "@remix-run/dev": "^2.0.0",
     "@remix-run/eslint-config": "^2.0.0",
+    "@tailwindcss/typography": "^0.5.10",
     "@testing-library/cypress": "^9.0.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@types/bcryptjs": "^2.4.2",

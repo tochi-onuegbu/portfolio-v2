@@ -1,9 +1,49 @@
 import type { Config } from "tailwindcss";
+import typography from '@tailwindcss/typography';
 
 export default {
-  content: ["./app/**/*.{js,jsx,ts,tsx}"],
+  content: ["./app/**/*.{js,jsx,ts,tsx}", "./public/**/*.{png,jpg,jpeg,gif,svg,ico}"],
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': [
+          'Inter',
+          'Matter',
+          'ui-sans-serif',
+          'system-ui',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          '"Segoe UI"',
+          'Roboto',
+          '"Helvetica Neue"',
+          'Arial',
+          '"Noto Sans"',
+          'sans-serif',
+          '"Apple Color Emoji"',
+          '"Segoe UI Emoji"',
+          '"Segoe UI Symbol"',
+          '"Noto Color Emoji"',
+        ],
+        'serif': ['ui-serif', 'Georgia'],
+        'mono': ['ui-monospace', 'SFMono-Regular'],
+        'display': ['Oswald'],
+        'body': ['"Open Sans"'],
+      },
+      typography: {
+        DEFAULT: {
+          css: {
+            fontFamily: 'Inter, sans', // Set the desired font family for prose
+          },
+        },
+      },
+    },
   },
-  plugins: [],
+  plugins: [typography],
 } satisfies Config;
+
+const plugin = require('tailwindcss/plugin')
+
+
+
+
