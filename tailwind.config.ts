@@ -30,6 +30,9 @@ export default {
         'display': ['Oswald'],
         'body': ['"Open Sans"'],
       },
+      backgroundImage: {
+        'gradient': 'linear-gradient(90deg, #718096, #4A90E2)',
+      },
       typography: {
         DEFAULT: {
           css: {

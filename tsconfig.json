@@ -1,10 +1,12 @@
 {
   "exclude": ["./cypress", "./cypress.config.ts"],
-  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx", "app/routes/particle-effect.js"],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2020"],
-    "types": ["vitest/globals"],
+    
+    "types": ["vitest/globals", "react", "react-dom"],
     "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "jsx": "react-jsx",
     "module": "CommonJS",
@@ -16,7 +18,8 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./app/*"]
+      "~/*": ["./app/*"],
+      "tsparticles/*": ["node_modules/ts-particles/dist/*"],
     },
     "skipLibCheck": true,
 
