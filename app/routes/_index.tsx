@@ -249,11 +249,11 @@ export default function Index() {
             <h1 id="projects" className="scroll-mt-16 bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-cyan-600 prose prose-h1:{utility} subpixel-antialiased mt-10 leading-tight text-3xl md:text-4xl text-2xl font-semibold">featured projects</h1>
             <div className="font-extralight prose leading-loose text-slate-900 dark:text-gray-400 mb-10 pb-12">
               <div className="w-full">
-                <h1 className="mt-6 mb-0"><a className="prose text-gray-950 dark:text-gray-300 font-semibold text-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 hover:text-cyan-800 dark:hover:text-cyan-100 after:content-['_↗'] !no-underline text-lg" href="https://www.youtube.com/watch?v=YjH5zGIsbrE&t=1s" target="_blank">DukeAttend</a></h1>
+                <h1 className="mt-6 mb-0"><a className="prose text-gray-950 dark:text-gray-300 font-semibold text-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 hover:text-cyan-800 dark:hover:text-cyan-100 after:content-['_↗'] !no-underline text-lg" href="https://www.youtube.com/watch?v=YjH5zGIsbrE&t=1s" target="_blank" rel="noreferrer">DukeAttend</a></h1>
                 <div className="pb-4">
                   <p className="mt-0 mb-1 ">An attendance tracking app that encapsulates an iOS app, which students uses to check in, and a web app, which is the professor's primary interface. </p>
                   <div className="pt-0">
-                    <a className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 hover:text-cyan-800 dark:hover:text-cyan-100 !no-underline" href="https://www.youtube.com/watch?v=PHaLQnKrUZQ" target="_blank">View the Demo</a>
+                    <a className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 hover:text-cyan-800 dark:hover:text-cyan-100 !no-underline" href="https://www.youtube.com/watch?v=PHaLQnKrUZQ" target="_blank" rel="noreferrer">View the Demo</a>
                   </div>
                 </div>
                 <div className=" flex flex-wrap items-start justify-start gap-2">
@@ -287,10 +287,9 @@ export default function Index() {
                 </div>
               </div>
               <div>
-                <h1 className="mt-12 mb-0"><a className="prose text-gray-950 dark:text-gray-300 font-semibold  text-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-70 duration-90 hover:text-cyan-800 dark:hover:text-cyan-100 !no-underline text-lg" >Mini Amazon</a></h1>
+                <h1 className="mt-12 mb-0"><p className="prose text-gray-950 dark:text-gray-300 font-semibold  text-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-70 duration-90 hover:text-cyan-800 dark:hover:text-cyan-100 !no-underline text-lg" >Mini Amazon</p></h1>
                 <div className="flex items-center space-x-4">
                   <p className="mt-0">Online marketplace users can browse to shop. Simply sign in to your account to purchase the items in your cart.</p>
-                  <img></img>
                 </div>
                 <div className="flex flex-wrap items-start justify-start gap-2">
                   <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
@@ -314,7 +313,6 @@ export default function Index() {
                 <h1 className="prose text-gray-950 dark:text-gray-300 font-semibold mt-12 mb-0 text-lg">CrunchTime</h1>
                 <div className="flex items-center space-x-4">
                   <p className="mt-0">App that helps students utilize their time by breaking big projects down into smaller "bites" — excuse the pun. </p>
-                  <img></img>
                 </div>
                 <div className="flex flex-wrap items-start justify-start gap-2">
                   <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
@@ -332,7 +330,7 @@ export default function Index() {
                 </div>
               </div>
               <div>
-                <h1 className="mt-12 mb-0"><a className="prose text-gray-950 dark:text-gray-300 font-semibold  text-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-70 duration-90 hover:text-cyan-800 dark:hover:text-cyan-100 after:content-['_↗'] !no-underline text-lg" href="https://tochi-onuegbu.github.io" target="_blank">tochionuegbu.com (v1)</a></h1>
+                <h1 className="mt-12 mb-0"><a className="prose text-gray-950 dark:text-gray-300 font-semibold  text-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-70 duration-90 hover:text-cyan-800 dark:hover:text-cyan-100 after:content-['_↗'] !no-underline text-lg" href="https://tochi-onuegbu.github.io" target="_blank" rel="noreferrer">tochionuegbu.com (v1)</a></h1>
                 <div className="flex items-center space-x-4">
                   <p className="mt-0">First iteration of my personal portoflio website. </p>
                   <img></img>
@@ -353,7 +351,7 @@ export default function Index() {
                 </div>
               </div>
               <div>
-                <h1 className="mt-12 mb-0"><a className="prose text-gray-950 dark:text-gray-300 font-semibold  text-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-70 duration-90 hover:text-cyan-800 dark:hover:text-cyan-100 after:content-['_↗'] !no-underline text-lg" href="https://github.com/tochi-onuegbu/snake-game" target="_blank">Snake Game</a></h1>
+                <h1 className="mt-12 mb-0"><a className="prose text-gray-950 dark:text-gray-300 font-semibold  text-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-70 duration-90 hover:text-cyan-800 dark:hover:text-cyan-100 after:content-['_↗'] !no-underline text-lg" href="https://github.com/tochi-onuegbu/snake-game" target="_blank" rel="noreferrer">Snake Game</a></h1>
                 <div className="flex items-start space-x-4">
                   <p className="mt-0 pt-0">Simple program that enables the active user to control a snake
                     and eat as many apples as possible. Just don't run into the walls
@@ -377,7 +375,7 @@ export default function Index() {
                     <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - PRESENT</small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
-                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codeplus.duke.edu" target="_blank">Code+ | Software Developer</a>
+                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codeplus.duke.edu" target="_blank" rel="noreferrer">Code+ | Software Developer</a>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
                       <li className="">Collaborate with a <a className="dark:text-white text-slate-800 underline-offset-8 no-underline hover:underline " href="https://codeplus.duke.edu/projects/managing-events-and-attendance" target="_blank">team of six students</a> using Xcode's Storyboard interface to develop an attendance tracking app with NFC technology to boost classroom  attendance by at least 75% </li>
                       <li>Using Ruby on Rails and PostgreSQL to implement the back-end web application</li>
@@ -393,7 +391,7 @@ export default function Index() {
                     <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - PRESENT</small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
-                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0  hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" target="_blank">Project | Web Developer</a>
+                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0  hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" target="_blank" rel="noreferrer">Project | Web Developer</a>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
                       <li>Building a database-driven website (using Python, Flask, and PostgreSQL) from the ground up that mimics the functionalities of an online marketplace such as Amazon</li>
                       <li>Collaborate closely with my team on the overall database, website designs, and API integrations</li>
@@ -408,7 +406,7 @@ export default function Index() {
                     <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - PRESENT</small>
                   </div>
                   <div className="flex-1 flex flex-col sm:space-y-1">
-                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codingmindsacademy.com" target="_blank">Coding Minds | Instructor</a>
+                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codingmindsacademy.com" target="_blank" rel="noreferrer">Coding Minds | Instructor</a>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
                       <li>Lead weekly one-on-one, project-based HTML, CSS, JS, and Roblox classes to clients using Replit IDE</li>
                       <li>Guide clients to deploy their website</li>
@@ -423,7 +421,7 @@ export default function Index() {
                     <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2022 - 2023</small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
-                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" target="_blank">CrunchTime | Software Developer</a>
+                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" target="_blank" rel="noreferrer">CrunchTime | Software Developer</a>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
                       <li>Designed CrunchTime's UI/UX front-end in Figma</li>
                       <li>Programmed the app's login page on Xcode and implemented user authentication</li>
@@ -438,7 +436,7 @@ export default function Index() {
                     <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2022 </small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
-                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://hackduke.org" target="_blank">HackDuke | Web Developer</a>
+                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://hackduke.org" target="_blank" rel="noreferrer">HackDuke | Web Developer</a>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
                       <li>Teamed up with a pair of students to design an ADHD-friendly scheduling and journaling website for documenting daily activities</li>
                       <li>Implemented key features and elements that are crucial to enable an inclusive and accessible user experience</li>
@@ -447,7 +445,7 @@ export default function Index() {
                 </div>
               </div>
               <div className="mt-10 pt-10 ">
-                <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-cyan-600 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="/pdfs/resume.pdf" target="_blank" rel="noopener noreferrer">View full resume</a>
+                <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-cyan-600 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="/pdfs/resume.pdf" target="_blank" rel="noreferrer">View full resume</a>
               </div>
             </div>
             <div className="text-center pt-10 pb-8 pl-0 pr-0 ml-0 mr-0" >
