@@ -5,7 +5,8 @@ describe("smoke tests", () => {
 
   it("should load the homepage", () => {
     // Visit the homepage or the specific URL you want to test
-    cy.visitAndCheck("/");
+    // For example, visit the homepage
+    cy.visit("/");
 
     // Perform assertions related to the homepage, but skip user-related actions
     // For example, check for specific elements on the page
