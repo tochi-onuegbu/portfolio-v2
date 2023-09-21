@@ -193,11 +193,13 @@ export default function Index() {
           <div className="font-extralight prose leading-loose text-slate-900 dark:text-gray-400 mb-20 pb-12">
             <div>
               <h1 className="mt-12 mb-0"><a className="prose text-gray-950 dark:text-gray-300 font-semibold  text-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 hover:text-cyan-800 dark:hover:text-cyan-100 after:content-['_↗'] !no-underline text-lg" href="https://www.youtube.com/watch?v=YjH5zGIsbrE&t=1s" target="_blank">DukeAttend</a></h1>
-              <div className="flex space-x-4">
-                <p className="mt-0 ">An attendance tracking app that encapsulates an iOS app, which students uses to check in, and a web app, which is the professor's primary interface. <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 hover:text-cyan-800 dark:hover:text-cyan-100 !no-underline" href="https://www.youtube.com/watch?v=PHaLQnKrUZQ" target="_blank">View the Demo</a></p>
-                <img></img>
+              <div className="pb-4">
+                <p className="mt-0 mb-1 ">An attendance tracking app that encapsulates an iOS app, which students uses to check in, and a web app, which is the professor's primary interface. </p>
+                <div className="pt-0">
+                <a className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 hover:text-cyan-800 dark:hover:text-cyan-100 !no-underline" href="https://www.youtube.com/watch?v=PHaLQnKrUZQ" target="_blank">View the Demo</a>
+                </div>
               </div>
-              <div className="flex flex-wrap items-start justify-start space-x-4">
+              <div className=" flex flex-wrap items-start justify-start gap-2">
                 <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 duration-300 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
                   Xcode
                 </button>
@@ -225,15 +227,18 @@ export default function Index() {
                 <button className="items-start justify-start transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
                   Fullstack
                 </button>
+
               </div>
+          
+
             </div>
             <div>
-              <h1 className="prose text-gray-950 dark:text-gray-300 font-semibold mt-12 mb-0 text-lg">Mini Amazon</h1>
+            <h1 className="mt-12 mb-0"><a className="prose text-gray-950 dark:text-gray-300 font-semibold  text-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-70 duration-90 hover:text-cyan-800 dark:hover:text-cyan-100 after:content-['_↗'] !no-underline text-lg" href="https://gitlab.oit.duke.edu/ak561/mini-amazon-skeleton" target="_blank">Mini Amazon</a></h1>
               <div className="flex items-center space-x-4">
                 <p className="mt-0">Online marketplace users can browse to shop. Simply sign in to your account to purchase the items in your cart.</p>
                 <img></img>
               </div>
-              <div className="flex flex-wrap items-center space-x-4">
+              <div className="flex flex-wrap items-start justify-start gap-2">
                 <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
                   Python
                 </button>
@@ -257,7 +262,7 @@ export default function Index() {
                 <p className="mt-0">App that helps students utilize their time by breaking big projects down into smaller "bites" — excuse the pun. </p>
                 <img></img>
               </div>
-              <div className="flex flex-wrap space-x-4 items-start">
+              <div className="flex flex-wrap items-start justify-start gap-2">
                 <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
                   Xcode
                 </button>
@@ -273,26 +278,23 @@ export default function Index() {
               </div>
             </div>
             <div>
-              <h1 className="prose text-gray-950 dark:text-gray-300 font-semibold mt-12 mb-0 text-lg">tochionuegbu.com (v2)</h1>
+            <h1 className="mt-12 mb-0"><a className="prose text-gray-950 dark:text-gray-300 font-semibold  text-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-70 duration-90 hover:text-cyan-800 dark:hover:text-cyan-100 after:content-['_↗'] !no-underline text-lg" href="https://tochi-onuegbu.github.io" target="_blank">tochionuegbu.com (v1)</a></h1>
               <div className="flex items-center space-x-4">
-                <p className="mt-0">Second iteration of my personal portoflio website. </p>
+                <p className="mt-0">First iteration of my personal portoflio website. </p>
                 <img></img>
               </div>
-              <div className="flex flex-wrap items-center space-x-4">
+              <div className="flex flex-wrap items-start justify-start gap-2">
                 <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-                  Remix
+                  HTML
                 </button>
                 <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-                  Tailwind
+                  CSS
                 </button>
                 <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-                  Prisma
+                  JS
                 </button>
                 <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
                   Git
-                </button>
-                <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-                  Fullstack
                 </button>
               </div>
             </div>
@@ -324,7 +326,7 @@ export default function Index() {
             </div> */}
 
             <div>
-              <h1 className="prose text-gray-950 dark:text-gray-300 font-semibold mt-12 text-lg">Snake Game</h1>
+            <h1 className="mt-12 mb-0"><a className="prose text-gray-950 dark:text-gray-300 font-semibold  text-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-70 duration-90 hover:text-cyan-800 dark:hover:text-cyan-100 after:content-['_↗'] !no-underline text-lg" href="https://github.com/tochi-onuegbu/snake-game" target="_blank">Snake Game</a></h1>
               <div className="flex items-start space-x-4">
                 <p className="mt-0 pt-0">Simple program that enables the active user to control a snake
                   and eat as many apples as possible. Just don't run into the walls
@@ -332,7 +334,7 @@ export default function Index() {
                   
                   
               </div>
-              <div className="flex flex-wrap items-center space-x-4">
+              <div className="flex flex-wrap items-start justify-start gap-2">
                 <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
                   Java
                 </button>
@@ -371,7 +373,7 @@ export default function Index() {
                   <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://gitlab.oit.duke.edu/ak561/mini-amazon-skeleton" target="_blank">Project | Web Developer</a>
                   <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose mr-20 pr-10 text-base" >
                     <li>Building a database-driven website (using Python, Flask, and PostgreSQL) from the ground up that mimics the functionalities of an online marketplace such as Amazon</li>
-                    <li>Collaborate closely with my team on the overall database and website designs, and on integrating the APIs</li>
+                    <li>Collaborate closely with my team on the overall database, website designs, and API integrations</li>
                     <li>Conduct weekly stand-up meetings on Microsoft Teams with project team</li>
 
 
