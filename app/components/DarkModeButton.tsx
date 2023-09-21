@@ -12,6 +12,7 @@ function DarkModeButton() {
   }, [darkMode]);
 
   const toggleDarkMode = () => {
+    console.log('Dark mode button clicked');
     setDarkMode(!darkMode);
   };
 

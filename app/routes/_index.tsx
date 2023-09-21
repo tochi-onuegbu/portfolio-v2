@@ -15,6 +15,7 @@ export default function Index() {
         <div className="ml-20 p-4">
         
           <div className="mt-0 pt-0 pl-0 ml-0"><DarkModeButton /> </div>
+
           <h1 className="text-slate-800 dark:text-white prose prose-h1:{utility} subpixel-antialiased mt-16 leading-tight text-3xl md:text-4xl text-2xl font-bold">Hi! I'm Tochi (Elvina) Onuegbu</h1>
           <div>
             <h3 className="leading-loose font-extralight text-slate-600 dark:text-slate-300 py-5 leading-tight text-2xl md:text-larg
