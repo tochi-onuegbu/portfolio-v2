@@ -95,7 +95,7 @@ export default function Index() {
         <div className="mb-25 !scroll-smooth " >
           {/* side dashboard */}
           <div className="lg:mt-14 lg:h-screen lg:flex lg:items-start lg:justify-start dark:bg-gray-900 bg-stone-50 text-white lg:w-[50%] p-4 lg:fixed overflow-y-auto">
-            <div className="ml-20 p-4">
+            <div className="ml-5 sm:ml-20 p-4">
               <div className="align-start mt-0 pt-7 pl-0 ml-0"><DarkModeButton /> </div>
               <h1 className="text-slate-800 dark:text-white prose prose-h1:{utility} subpixel-antialiased mt-16 leading-tight text-3xl md:text-4xl text-2xl font-bold">Hi! I'm Tochi (Elvina) Onuegbu</h1>
               <div>
@@ -146,13 +146,13 @@ export default function Index() {
           </div>
         </div>
         {/* main dashboard */}
-        <div className="lg:ml-[50%] ml-20 p-10">
+        <div className="lg:ml-[50%] ml-5 sm:ml-20 p-10">
           <h1 id="about-me" className="scroll-mt-16 bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-cyan-300 prose prose-h1:{utility} subpixel-antialiased mt-20 pt-19 leading-tight text-3xl md:text-4xl text-2xl font-semibold">a little bit about me</h1>
           <div className="font-extralight prose leading-loose text-slate-900 dark:text-gray-400">
             <p className="">I am a third-year student at <a className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Duke University </a>studying <p className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Computer Science </p> with a minor in Visual Media Studies and a certificate in Digital Intelligence. I am a  <p className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Rubenstein Scholar, </p> a prestigious full-ride scholarship awarded to selected students. </p>
             <p className="mt-5 mb-16 ">I am a part of  <p className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">DTech Scholars,</p> a program that uplifts women in STEM, equipping me with a network of individuals who I have as a support system. I am also a member of  <p className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">National Society of Black Engineers (NSBE). </p>  I am passionate about inclusivity in the tech industry and the promotion of resources to underrepresented communities.</p>
           </div>
-          <div className="sm:snap-x sm:snap-mandatory pt-0 mt-0">
+          <div className="hidden sm:block sm:snap-x sm:snap-mandatory pt-0 mt-0">
             <h1 id="tech" className="scroll-mt-16 bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-cyan-600 prose prose-h1:{utility} subpixel-antialiased pt-0 mt-0 leading-tight text-3xl md:text-4xl text-2xl font-semibold">techstack</h1>
             <div className="mx-auto max-w-7xl px-4 py-2 sm:px-6 lg:px-8">
               <div className="flex flex-row basis-96 mt-6 mb-20 gap-8 flex-wrap pb-15 sm:flex sm:flex-wrap sm:justify-center sm:gap-8">
@@ -448,8 +448,8 @@ export default function Index() {
               </div>
             </div>
             <div className="text-center pt-10 pb-8 pl-0 pr-0 ml-0 mr-0" >
-              <div className="text-center items-center prose font-sans col-span-full sm:text-base text-sm text-gray-400 dark:text-gray-600 mt-20"><span>Developed using Remix and Tailwind.</span></div>
-              <div className="text-center items-center prose font-sans mb-12 col-span-full sm:text-base text-sm text-gray-400 dark:text-gray-600"><span>All rights reserved © Tochi Onuegbu 2023</span></div>
+              <div className="hidden sm:block text-center items-center prose font-sans col-span-full sm:text-base text-sm text-gray-400 dark:text-gray-600 mt-20"><span>Developed using Remix and Tailwind.</span></div>
+              <div className="hidden sm:block text-center items-center prose font-sans mb-12 col-span-full sm:text-base text-sm text-gray-400 dark:text-gray-600"><span>All rights reserved © Tochi Onuegbu 2023</span></div>
             </div>
           </div>
         </div>
