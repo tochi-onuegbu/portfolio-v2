@@ -18,7 +18,7 @@ Created using Remix, a fullstack framework. Deployed using fly.io
 This starts your app in development mode, rebuilding assets on file changes.
 
 
-## gitHub actions
+## github actions
 
 We use GitHub Actions for continuous integration and deployment. Anything that gets into the `main` branch will be deployed to production after running tests/build/etc. Anything in the `dev` branch will be deployed to staging.
 
