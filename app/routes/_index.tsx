@@ -149,8 +149,8 @@ export default function Index() {
         <div className="lg:ml-[50%] ml-20 p-10">
           <h1 id="about-me" className="scroll-mt-16 bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-cyan-300 prose prose-h1:{utility} subpixel-antialiased mt-20 pt-19 leading-tight text-3xl md:text-4xl text-2xl font-semibold">a little bit about me</h1>
           <div className="font-extralight prose leading-loose text-slate-900 dark:text-gray-400">
-            <p className="">I am a third-year student at <a className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Duke University </a>studying <a className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Computer Science </a> with a minor in Visual Media Studies and a certificate in Digital Intelligence. I am a  <a className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Rubenstein Scholar, </a> a prestigious full-ride scholarship awarded to selected students. </p>
-            <p className="mt-5 mb-16 ">I am a part of  <a className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">DTech Scholars,</a> a program that uplifts women in STEM, equipping me with a network of individuals who I have as a support system. I am also a member of  <a className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">National Society of Black Engineers (NSBE). </a>  I am passionate about inclusivity in the tech industry and the promotion of resources to underrepresented communities.</p>
+            <p className="">I am a third-year student at <a className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Duke University </a>studying <p className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Computer Science </p> with a minor in Visual Media Studies and a certificate in Digital Intelligence. I am a  <p className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Rubenstein Scholar, </p> a prestigious full-ride scholarship awarded to selected students. </p>
+            <p className="mt-5 mb-16 ">I am a part of  <p className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">DTech Scholars,</p> a program that uplifts women in STEM, equipping me with a network of individuals who I have as a support system. I am also a member of  <p className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">National Society of Black Engineers (NSBE). </p>  I am passionate about inclusivity in the tech industry and the promotion of resources to underrepresented communities.</p>
           </div>
           <div className="sm:snap-x sm:snap-mandatory pt-0 mt-0">
             <h1 id="tech" className="scroll-mt-16 bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-cyan-600 prose prose-h1:{utility} subpixel-antialiased pt-0 mt-0 leading-tight text-3xl md:text-4xl text-2xl font-semibold">techstack</h1>
@@ -333,7 +333,6 @@ export default function Index() {
                 <h1 className="mt-12 mb-0"><a className="prose text-gray-950 dark:text-gray-300 font-semibold  text-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-70 duration-90 hover:text-cyan-800 dark:hover:text-cyan-100 after:content-['_↗'] !no-underline text-lg" href="https://tochi-onuegbu.github.io" target="_blank" rel="noreferrer">tochionuegbu.com (v1)</a></h1>
                 <div className="flex items-center space-x-4">
                   <p className="mt-0">First iteration of my personal portoflio website. </p>
-                  <img></img>
                 </div>
                 <div className="flex flex-wrap items-start justify-start gap-2">
                   <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
@@ -377,10 +376,10 @@ export default function Index() {
                   <div className="flex-1 flex flex-col space-y-1">
                     <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codeplus.duke.edu" target="_blank" rel="noreferrer">Code+ | Software Developer</a>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
-                      <li className="">Collaborate with a <a className="dark:text-white text-slate-800 underline-offset-8 no-underline hover:underline " href="https://codeplus.duke.edu/projects/managing-events-and-attendance" target="_blank">team of six students</a> using Xcode's Storyboard interface to develop an attendance tracking app with NFC technology to boost classroom  attendance by at least 75% </li>
+                      <li className="">Collaborate with a <a className="dark:text-white text-slate-800 underline-offset-8 no-underline hover:underline " href="https://codeplus.duke.edu/projects/managing-events-and-attendance" target="_blank" rel="noreferrer">team of six students</a> using Xcode's Storyboard interface to develop an attendance tracking app with NFC technology to boost classroom  attendance by at least 75% </li>
                       <li>Using Ruby on Rails and PostgreSQL to implement the back-end web application</li>
                       <li>Researching optimal user interface design to streamline attendance records for professors and students</li>
-                      <li>Meet with <a className="dark:text-white text-slate-800 underline-offset-8 no-underline hover:underline" href="https://ece.duke.edu/faculty/andrew-hilton" target="_blank">stakeholders</a> every week to refine the minimal viable product</li>
+                      <li>Meet with <a className="dark:text-white text-slate-800 underline-offset-8 no-underline hover:underline" href="https://ece.duke.edu/faculty/andrew-hilton" target="_blank" rel="noreferrer">stakeholders</a> every week to refine the minimal viable product</li>
                     </ul>
                   </div>
                 </div>
@@ -391,7 +390,7 @@ export default function Index() {
                     <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - PRESENT</small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
-                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0  hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" target="_blank" rel="noreferrer">Project | Web Developer</a>
+                    <p className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0  hover:text-cyan-800 dark:hover:text-cyan-100 text-lg">Project | Web Developer</p>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
                       <li>Building a database-driven website (using Python, Flask, and PostgreSQL) from the ground up that mimics the functionalities of an online marketplace such as Amazon</li>
                       <li>Collaborate closely with my team on the overall database, website designs, and API integrations</li>
@@ -421,7 +420,7 @@ export default function Index() {
                     <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2022 - 2023</small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
-                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" target="_blank" rel="noreferrer">CrunchTime | Software Developer</a>
+                    <p className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 hover:text-cyan-800 dark:hover:text-cyan-100 text-lg">CrunchTime | Software Developer</p>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
                       <li>Designed CrunchTime's UI/UX front-end in Figma</li>
                       <li>Programmed the app's login page on Xcode and implemented user authentication</li>
