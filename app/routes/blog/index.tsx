@@ -11,8 +11,8 @@ export default function Blog() {
 
             </div>
 
-            <div className="flex justify-center items-center">
-                <h1 className="text-slate-800 dark:text-white prose prose-h1 subpixel-antialiased leading-tight text-6xl font-bold">
+            <div className="!pt-0 !mt-0 flex justify-center items-center">
+                <h1 className="text-slate-800 dark:text-white prose prose-h1 subpixel-antialiased leading-tight text-3xl lg:text-5xl font-bold">
                     coming soon!
                 </h1>
             </div>
