@@ -1,17 +1,10 @@
 import type { MetaFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
-import { useOptionalUser } from "~/utils";
-import { useEffect } from 'react';
 import DarkModeButton from "~/components/DarkModeButton";
-import Constellation from "~/components/Constellation";
-
-
-
 
 export const meta: MetaFunction = () => [{ title: "Tochi Onuegbu Personal Website" }];
 
 export default function Index() {
-  const user = useOptionalUser();
   return (
     <html className="dark:bg-gray-900 bg-stone-50">
     <main className="dark:bg-gray-900 bg-stone-50">
