@@ -42,7 +42,6 @@ export default {
   plugins: [typography],
 } satisfies Config;
 
-const plugin = require('tailwindcss/plugin')
 
 
 
