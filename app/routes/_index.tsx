@@ -152,10 +152,10 @@ export default function Index() {
             <p className="">I am a third-year student at <a className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Duke University </a>studying <a className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Computer Science </a> with a minor in Visual Media Studies and a certificate in Digital Intelligence. I am a  <a className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Rubenstein Scholar, </a> a prestigious full-ride scholarship awarded to selected students. </p>
             <p className="mt-5 mb-16 ">I am a part of  <a className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">DTech Scholars,</a> a program that uplifts women in STEM, equipping me with a network of individuals who I have as a support system. I am also a member of  <a className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">National Society of Black Engineers (NSBE). </a>  I am passionate about inclusivity in the tech industry and the promotion of resources to underrepresented communities.</p>
           </div>
-          <div className="snap-x snap-mandatory pt-0 mt-0">
+          <div className="sm:snap-x sm:snap-mandatory pt-0 mt-0">
             <h1 id="tech" className="scroll-mt-16 bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-cyan-600 prose prose-h1:{utility} subpixel-antialiased pt-0 mt-0 leading-tight text-3xl md:text-4xl text-2xl font-semibold">techstack</h1>
             <div className="mx-auto max-w-7xl px-4 py-2 sm:px-6 lg:px-8">
-              <div className="mt-6 mb-20 pb-15 flex flex-wrap justify-center gap-8">
+              <div className="flex flex-row basis-96 mt-6 mb-20 gap-8 flex-wrap pb-15 sm:flex sm:flex-wrap sm:justify-center sm:gap-8">
                 {[
                   {
                     src: "/images/flyio-icon.svg",
@@ -372,9 +372,9 @@ export default function Index() {
             <div className="!pl-0 !pr-0">
               <div>
                 <h1 id="experiences" className="scroll-mt-16 bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-cyan-600 prose prose-h1:{utility} subpixel-antialiased !mt-0 !pt-0 leading-tight text-3xl md:text-4xl text-2xl font-semibold">relevant experiences</h1>
-                <div className="flex flex-wrap space-x-16 mt-10">
+                <div className="sm:flex sm:flex-wrap sm:space-x-16 mt-10">
                   <div>
-                    <small className="uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - PRESENT</small>
+                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - PRESENT</small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
                     <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codeplus.duke.edu" target="_blank">Code+ | Software Developer</a>
@@ -388,9 +388,9 @@ export default function Index() {
                 </div>
               </div>
               <div>
-                <div className="flex flex-wrap space-x-14 mt-10">
+                <div className="sm:flex sm:flex-wrap sm:space-x-14 mt-10">
                   <div>
-                    <small className="uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - PRESENT</small>
+                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - PRESENT</small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
                     <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0  hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" target="_blank">Project | Web Developer</a>
@@ -403,11 +403,11 @@ export default function Index() {
                 </div>
               </div>
               <div>
-                <div className="flex flex-wrap space-x-14 mt-10">
+                <div className="sm:flex sm:flex-wrap sm:space-x-14 mt-10">
                   <div>
-                    <small className="uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - PRESENT</small>
+                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - PRESENT</small>
                   </div>
-                  <div className="flex-1 flex flex-col space-y-1">
+                  <div className="flex-1 flex flex-col sm:space-y-1">
                     <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codingmindsacademy.com" target="_blank">Coding Minds | Instructor</a>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
                       <li>Lead weekly one-on-one, project-based HTML, CSS, JS, and Roblox classes to clients using Replit IDE</li>
@@ -418,9 +418,9 @@ export default function Index() {
                 </div>
               </div>
               <div>
-                <div className="flex flex-wrap space-x-20 mt-10">
+                <div className="sm:flex sm:flex-wrap sm:space-x-20 mt-10">
                   <div>
-                    <small className="uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2022 - 2023</small>
+                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2022 - 2023</small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
                     <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" target="_blank">CrunchTime | Software Developer</a>
@@ -433,9 +433,9 @@ export default function Index() {
                 </div>
               </div>
               <div>
-                <div className="flex flex-wrap space-x-32 mt-10">
+                <div className="sm:flex sm:flex-wrap sm:space-x-32 mt-10">
                   <div>
-                    <small className="uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2022 </small>
+                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2022 </small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
                     <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://hackduke.org" target="_blank">HackDuke | Web Developer</a>
@@ -450,9 +450,9 @@ export default function Index() {
                 <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-cyan-600 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="/pdfs/resume.pdf" target="_blank" rel="noopener noreferrer">View full resume</a>
               </div>
             </div>
-            <div className="text-center pt-10 pb-8" >
-              <div className="text-center items-center prose font-sans col-span-full text-base text-gray-400 dark:text-gray-600 mt-20"><span>Developed using Remix and Tailwind.</span></div>
-              <div className="text-center items-center prose font-sans mb-12 col-span-full text-base text-gray-400 dark:text-gray-600"><span>All rights reserved © Tochi Onuegbu 2023</span></div>
+            <div className="text-center pt-10 pb-8 pl-0 pr-0 ml-0 mr-0" >
+              <div className="text-center items-center prose font-sans col-span-full sm:text-base text-sm text-gray-400 dark:text-gray-600 mt-20"><span>Developed using Remix and Tailwind.</span></div>
+              <div className="text-center items-center prose font-sans mb-12 col-span-full sm:text-base text-sm text-gray-400 dark:text-gray-600"><span>All rights reserved © Tochi Onuegbu 2023</span></div>
             </div>
           </div>
         </div>
