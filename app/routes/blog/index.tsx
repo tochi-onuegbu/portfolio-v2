@@ -4,8 +4,6 @@ import DarkModeButton from "~/components/DarkModeButton";
 
 export default function Blog() {
     return (
-
-
         <div className="h-screen dark:bg-gray-900 bg-stone-50 text-white w-screen p-4 fixed overflow-y-auto">
 
             <div className="mt-2 pt-16 pl-24">
