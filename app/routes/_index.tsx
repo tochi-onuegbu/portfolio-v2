@@ -82,7 +82,7 @@ export default function Index() {
                 <div className="align-start mt-0 pt-7 pl-0 ml-0"><DarkModeButton /> </div>
                 <h1 className="text-slate-800 dark:text-white prose prose-h1:{utility} subpixel-antialiased mt-16 leading-tight text-3xl md:text-4xl text-2xl font-bold">Hi! I'm Tochi (Elvina) Onuegbu</h1>
                 <div>
-                  <h3 className="leading-loose font-extralight text-slate-600 dark:text-slate-300 py-5 leading-tight text-2xl md:text-large text-2xl">I develop accessible and visually stimulating web application and software</h3>
+                  <h3 className="leading-loose font-extralight text-slate-700 dark:text-sky-100 py-5 leading-tight text-2xl md:text-large text-2xl">I develop accessible and visually stimulating web application and software</h3>
                 </div>
                 <nav className="block pb-20" aria-label="In-page jump links">
                   <ul className="mt-2 w-max">
@@ -131,7 +131,7 @@ export default function Index() {
         </div>
         {/* main dashboard */}
         <div className="lg:ml-[50%] ml-5 sm:ml-20 p-10">
-          <h1 id="about-me" className="scroll-mt-16 bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-cyan-300 prose prose-h1:{utility} subpixel-antialiased mt-20 pt-19 leading-tight text-3xl md:text-4xl text-2xl font-semibold">a little bit about me</h1>
+          <h1 id="about-me" className="scroll-mt-16 bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-cyan-300 prose prose-h1:{utility} subpixel-antialiased mt-20 pt-19 leading-tight text-3xl md:text-4xl text-2xl font-semibold">about me</h1>
           <div className="font-extralight prose leading-loose text-slate-900 dark:text-gray-400">
             <p className="">I am a third-year student at <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Duke University </span>studying <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Computer Science </span> with a minor in Visual Media Studies and a certificate in Digital Intelligence. I am a  <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Rubenstein Scholar, </span> a prestigious full-ride scholarship awarded to selected students. </p>
             <p className="mt-5 mb-16 ">I am a part of  <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">DTech Scholars,</span> a program that uplifts women in STEM, equipping me with a network of individuals who I have as a support system. I am also a member of  <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">National Society of Black Engineers (NSBE). </span>  I am passionate about inclusivity in the tech industry and the promotion of resources to underrepresented communities.</p>
