@@ -6,13 +6,11 @@ import type { Container, Engine } from "tsparticles-engine";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 
-
 const App = () => {
   const particlesInit = useCallback(async (engine: Engine) => {
     console.log(engine);
     await loadSlim(engine);
   }, []);
-
   const particlesLoaded = useCallback(async (container: Container | undefined) => {
     await console.log(container);
   }, []);
@@ -48,7 +46,7 @@ const App = () => {
             opacity: 0.02,
           },
           move: {
-            direction: "right",
+            direction: "bottom",
             speed: 0.05,
           },
           size: {
@@ -69,23 +67,19 @@ const App = () => {
 };
 
 export const meta: MetaFunction = () => [{ title: "Tochi Onuegbu Personal Website" }];
-
 export default function Index() {
   return (
     <html className="dark:bg-gray-900 bg-stone-50">
-      <App />
+      <div className="hidden lg:block">
+        <App />
+      </div>
       <main className="dark:bg-gray-900 bg-stone-50">
-
-
-
         <div className="mb-25 !scroll-smooth " >
           {/* side dashboard */}
           <div>
             <div className="lg:mt-14 lg:h-screen lg:flex lg:items-start lg:justify-start dark:bg-gray-900 bg-stone-50 text-white lg:w-[50%] p-4 lg:fixed overflow-y-auto">
               <div className="ml-5 sm:ml-20 p-4">
-
                 <div className="align-start mt-0 pt-7 pl-0 ml-0"><DarkModeButton /> </div>
-
                 <h1 className="text-slate-800 dark:text-white prose prose-h1:{utility} subpixel-antialiased mt-16 leading-tight text-3xl md:text-4xl text-2xl font-bold">Hi! I'm Tochi (Elvina) Onuegbu</h1>
                 <div>
                   <h3 className="leading-loose font-extralight text-slate-600 dark:text-slate-300 py-5 leading-tight text-2xl md:text-large text-2xl">I develop accessible and visually stimulating web application and software</h3>
