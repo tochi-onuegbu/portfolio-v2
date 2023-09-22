@@ -6,6 +6,7 @@ import type { Container, Engine } from "tsparticles-engine";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 
+
 const App = () => {
   const particlesInit = useCallback(async (engine: Engine) => {
     console.log(engine);
@@ -21,62 +22,44 @@ const App = () => {
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-
-        fpsLimit: 120,
         interactivity: {
           events: {
-            onHover: {
+            onClick: {
               enable: true,
-              mode: "repulse",
+              mode: "push",
             },
-            resize: true,
           },
           modes: {
             push: {
-              quantity: 4,
-            },
-            repulse: {
-              distance: 50,
-              duration: 0.4,
+              particles_nb: 1,
             },
           },
         },
         particles: {
-          color: {
-            value: "#474747",
-          },
-          links: {
-            color: "#838282",
-            distance: 150,
-            enable: true,
-            opacity: 0.10,
-            width: 1,
-          },
-          move: {
-            direction: "none",
-            enable: true,
-            outModes: {
-              default: "bounce",
-            },
-            random: false,
-            speed: 0.4,
-            straight: false,
-          },
           number: {
+            value: 60,
             density: {
               enable: true,
-              area: 800,
+              area: 1500,
             },
-            value: 80,
           },
-          opacity: {
-            value: 0.09,
+          links: {
+            enable: true,
+            opacity: 0.02,
           },
-          shape: {
-            type: "circle",
+          move: {
+            direction: "right",
+            speed: 0.05,
           },
           size: {
-            value: { min: 1, max: 3 },
+            value: 1,
+          },
+          opacity: {
+            anim: {
+              enable: true,
+              speed: 1,
+              opacity_min: 0.05,
+            },
           },
         },
         detectRetina: true,
@@ -92,55 +75,62 @@ export default function Index() {
     <html className="dark:bg-gray-900 bg-stone-50">
       <App />
       <main className="dark:bg-gray-900 bg-stone-50">
+
+
+
         <div className="mb-25 !scroll-smooth " >
           {/* side dashboard */}
-          <div className="lg:mt-14 lg:h-screen lg:flex lg:items-start lg:justify-start dark:bg-gray-900 bg-stone-50 text-white lg:w-[50%] p-4 lg:fixed overflow-y-auto">
-            <div className="ml-5 sm:ml-20 p-4">
-              <div className="align-start mt-0 pt-7 pl-0 ml-0"><DarkModeButton /> </div>
-              <h1 className="text-slate-800 dark:text-white prose prose-h1:{utility} subpixel-antialiased mt-16 leading-tight text-3xl md:text-4xl text-2xl font-bold">Hi! I'm Tochi (Elvina) Onuegbu</h1>
-              <div>
-                <h3 className="leading-loose font-extralight text-slate-600 dark:text-slate-300 py-5 leading-tight text-2xl md:text-large text-2xl">I develop accessible and visually stimulating web application and software</h3>
-              </div>
-              <nav className="block pb-20" aria-label="In-page jump links">
-                <ul className="mt-2 w-max">
-                  <li><a className="group flex items-center py-3" href="#about-me">
-                    <span className="nav-indicator mr-4 h-px w-8 bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-600 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                    <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400 group-hover:text-slate-800 dark:group-hover:text-slate-100 group-focus-visible:text-slate-200 ">About</span></a>
-                  </li>
-                  <li><a className="group flex items-center py-3" href="#tech">
-                    <span className="nav-indicator mr-4 h-px w-8 bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-600 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                    <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400 group-hover:text-slate-800 dark:group-hover:text-slate-100 group-focus-visible:text-slate-200">Techstack</span></a>
-                  </li>
-                  <li><a className="group flex items-center py-3" href="#projects">
-                    <span className="nav-indicator mr-4 h-px w-8 bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-600 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                    <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400 group-hover:text-slate-800 dark:group-hover:text-slate-100 group-focus-visible:text-slate-200">Projects</span></a>
-                  </li>
-                  <li><a className="group flex items-center py-3" href="#experiences">
-                    <span className="nav-indicator mr-4 h-px w-8 bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-600 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                    <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400 group-hover:text-slate-800 dark:group-hover:text-slate-100 group-focus-visible:text-slate-200">Experience</span></a>
-                  </li>
-                  <li>
-                    <Link to="/blog" className="group flex items-center py-3">
+          <div>
+            <div className="lg:mt-14 lg:h-screen lg:flex lg:items-start lg:justify-start dark:bg-gray-900 bg-stone-50 text-white lg:w-[50%] p-4 lg:fixed overflow-y-auto">
+              <div className="ml-5 sm:ml-20 p-4">
+
+                <div className="align-start mt-0 pt-7 pl-0 ml-0"><DarkModeButton /> </div>
+
+                <h1 className="text-slate-800 dark:text-white prose prose-h1:{utility} subpixel-antialiased mt-16 leading-tight text-3xl md:text-4xl text-2xl font-bold">Hi! I'm Tochi (Elvina) Onuegbu</h1>
+                <div>
+                  <h3 className="leading-loose font-extralight text-slate-600 dark:text-slate-300 py-5 leading-tight text-2xl md:text-large text-2xl">I develop accessible and visually stimulating web application and software</h3>
+                </div>
+                <nav className="block pb-20" aria-label="In-page jump links">
+                  <ul className="mt-2 w-max">
+                    <li><a className="group flex items-center py-3" href="#about-me">
                       <span className="nav-indicator mr-4 h-px w-8 bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-600 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                      <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400 group-hover:text-slate-800 dark:group-hover:text-slate-100 group-focus-visible:text-slate-200">Blog</span>
-                    </Link>
-                  </li>
-                </ul>
-              </nav>
-              <div className=" flex items-center space-x-4 !mb-22 !pb-24 absolute">
-                <a href="https://github.com/tochi-onuegbu">
-                  <svg className="fill-slate-500 dark:fill-slate-50" width="36" height="36" fill="none" viewBox="0 0 24 24"><title>GitHub</title>
-                    <path d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"></path>
-                  </svg>
-                </a>
-                <a href="https://www.linkedin.com/in/tochi-onuegbu-83a60223b/">
-                  <svg className="fill-slate-500 dark:fill-slate-50" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 448 512"><title>LinkedIn</title>
-                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" /></svg>
-                </a>
-                <a href="mailto:tochi.onuegbu@duke.edu">
-                  <svg className="fill-slate-500 dark:fill-slate-50" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 512 512"><title>Email</title>
-                    <path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480V396.4c0-4 1.5-7.8 4.2-10.7L331.8 202.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8 17.7 316.6C7.1 311.3 .3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z" /></svg>
-                </a>
+                      <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400 group-hover:text-slate-800 dark:group-hover:text-slate-100 group-focus-visible:text-slate-200 ">About</span></a>
+                    </li>
+                    <li><a className="group flex items-center py-3" href="#tech">
+                      <span className="nav-indicator mr-4 h-px w-8 bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-600 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                      <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400 group-hover:text-slate-800 dark:group-hover:text-slate-100 group-focus-visible:text-slate-200">Techstack</span></a>
+                    </li>
+                    <li><a className="group flex items-center py-3" href="#projects">
+                      <span className="nav-indicator mr-4 h-px w-8 bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-600 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                      <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400 group-hover:text-slate-800 dark:group-hover:text-slate-100 group-focus-visible:text-slate-200">Projects</span></a>
+                    </li>
+                    <li><a className="group flex items-center py-3" href="#experiences">
+                      <span className="nav-indicator mr-4 h-px w-8 bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-600 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                      <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400 group-hover:text-slate-800 dark:group-hover:text-slate-100 group-focus-visible:text-slate-200">Experience</span></a>
+                    </li>
+                    <li>
+                      <Link to="/blog" className="group flex items-center py-3">
+                        <span className="nav-indicator mr-4 h-px w-8 bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-600 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                        <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400 group-hover:text-slate-800 dark:group-hover:text-slate-100 group-focus-visible:text-slate-200">Blog</span>
+                      </Link>
+                    </li>
+                  </ul>
+                </nav>
+                <div className=" flex items-center space-x-4 !mb-22 !pb-24 absolute">
+                  <a href="https://github.com/tochi-onuegbu">
+                    <svg className="fill-slate-500 dark:fill-slate-50" width="36" height="36" fill="none" viewBox="0 0 24 24"><title>GitHub</title>
+                      <path d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"></path>
+                    </svg>
+                  </a>
+                  <a href="https://www.linkedin.com/in/tochi-onuegbu-83a60223b/">
+                    <svg className="fill-slate-500 dark:fill-slate-50" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 448 512"><title>LinkedIn</title>
+                      <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" /></svg>
+                  </a>
+                  <a href="mailto:tochi.onuegbu@duke.edu">
+                    <svg className="fill-slate-500 dark:fill-slate-50" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 512 512"><title>Email</title>
+                      <path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480V396.4c0-4 1.5-7.8 4.2-10.7L331.8 202.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8 17.7 316.6C7.1 311.3 .3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z" /></svg>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
