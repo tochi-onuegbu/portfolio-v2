@@ -6,72 +6,72 @@ import type { Container, Engine } from "tsparticles-engine";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 
-const App = () => {
-  const particlesInit = useCallback(async (engine: Engine) => {
-    console.log(engine);
-    await loadSlim(engine);
-  }, []);
-  const particlesLoaded = useCallback(async (container: Container | undefined) => {
-    await console.log(container);
-  }, []);
-  return (
-    <Particles
-      id="tsparticles"
-      init={particlesInit}
-      loaded={particlesLoaded}
-      options={{
-        interactivity: {
-          events: {
-            onClick: {
-              enable: true,
-              mode: "push",
-            },
-          },
-          modes: {
-            push: {
-              particles_nb: 1,
-            },
-          },
-        },
-        particles: {
-          number: {
-            value: 60,
-            density: {
-              enable: true,
-              area: 1500,
-            },
-          },
-          links: {
-            enable: true,
-            opacity: 0.02,
-          },
-          move: {
-            direction: "bottom",
-            speed: 0.05,
-          },
-          size: {
-            value: 1,
-          },
-          opacity: {
-            anim: {
-              enable: true,
-              speed: 1,
-              opacity_min: 0.05,
-            },
-          },
-        },
-        detectRetina: true,
-      }}
-    />
-  );
-};
+// const App = () => {
+//   const particlesInit = useCallback(async (engine: Engine) => {
+//     console.log(engine);
+//     await loadSlim(engine);
+//   }, []);
+//   const particlesLoaded = useCallback(async (container: Container | undefined) => {
+//     await console.log(container);
+//   }, []);
+//   return (
+//     <Particles
+//       id="tsparticles"
+//       init={particlesInit}
+//       loaded={particlesLoaded}
+//       options={{
+//         interactivity: {
+//           events: {
+//             onClick: {
+//               enable: true,
+//               mode: "push",
+//             },
+//           },
+//           modes: {
+//             push: {
+//               particles_nb: 1,
+//             },
+//           },
+//         },
+//         particles: {
+//           number: {
+//             value: 60,
+//             density: {
+//               enable: true,
+//               area: 1500,
+//             },
+//           },
+//           links: {
+//             enable: true,
+//             opacity: 0.02,
+//           },
+//           move: {
+//             direction: "bottom",
+//             speed: 0.05,
+//           },
+//           size: {
+//             value: 1,
+//           },
+//           opacity: {
+//             anim: {
+//               enable: true,
+//               speed: 1,
+//               opacity_min: 0.05,
+//             },
+//           },
+//         },
+//         detectRetina: true,
+//       }}
+//     />
+//   );
+// };
 
-export const meta: MetaFunction = () => [{ title: "Tochi Onuegbu Personal Website" }];
+export const meta: MetaFunction = () => [{ title: "Tochi Onuegbu Porfolio" }];
 export default function Index() {
   return (
     <html className="dark:bg-gray-900 bg-stone-50">
       <div className="hidden lg:block">
-        <App />
+        {/* <App /> */}
       </div>
       <main className="dark:bg-gray-900 bg-stone-50">
         <div className="mb-25 !scroll-smooth " >
@@ -80,9 +80,9 @@ export default function Index() {
             <div className="lg:mt-14 lg:h-screen lg:flex lg:items-start lg:justify-start dark:bg-gray-900 bg-stone-50 text-white lg:w-[50%] p-4 lg:fixed overflow-y-auto">
               <div className="ml-5 sm:ml-20 p-4">
                 <div className="align-start mt-0 pt-7 pl-0 ml-0"><DarkModeButton /> </div>
-                <h1 className="text-gray-500 dark:text-gray-300 prose prose-h1:{utility} subpixel-antialiased mt-16 leading-tight text-3xl md:text-4xl text-2xl font-bold">Hi! I'm Elvina Onuegbu</h1>
+                <h1 className="text-gray-700 dark:text-gray-300 prose prose-h1:{utility} subpixel-antialiased mt-16 leading-tight text-3xl md:text-4xl text-2xl font-bold">Hi! I'm Tochi Onuegbu</h1>
                 <div>
-                  <h3 className="leading-loose font-extralight text-slate-700 dark:text-sky-100 py-5 leading-tight text-2xl md:text-large text-2xl">I develop accessible and visually stimulating web application and software</h3>
+                  <h3 className="leading-loose font-extralight text-slate-700 dark:text-sky-100 py-5 leading-tight text-2xl md:text-large text-2xl">A passionate software engineer creating digital solutions that have a global impact</h3>
                 </div>
                 <nav className="block pb-20" aria-label="In-page jump links">
                   <ul className="mt-2 w-max">
@@ -102,12 +102,12 @@ export default function Index() {
                       <span className="nav-indicator mr-4 h-px w-8 bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-600 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
                       <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400 group-hover:text-slate-800 dark:group-hover:text-slate-100 group-focus-visible:text-slate-200">Experience</span></a>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="/blog" className="group flex items-center py-3">
                         <span className="nav-indicator mr-4 h-px w-8 bg-slate-400 transition-all group-hover:w-16 group-hover:bg-slate-600 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
                         <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400 group-hover:text-slate-800 dark:group-hover:text-slate-100 group-focus-visible:text-slate-200">Blog</span>
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </nav>
                 <div className=" flex items-center space-x-4 !mb-22 !pb-24 absolute">
@@ -131,13 +131,13 @@ export default function Index() {
         </div>
         {/* main dashboard */}
         <div className="lg:ml-[50%] ml-5 sm:ml-20 p-10">
-          <h1 id="about-me" className="scroll-mt-16 bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-cyan-300 prose prose-h1:{utility} subpixel-antialiased mt-20 pt-19 leading-tight text-3xl md:text-4xl text-2xl font-semibold">about me</h1>
+          <h1 id="about-me" className="scroll-mt-16 text-gray-700 dark:text-gray-300 prose prose-h1:{utility} subpixel-antialiased mt-20 pt-19 leading-tight text-3xl md:text-4xl text-2xl font-semibold">about me</h1>
           <div className="font-extralight prose leading-loose text-slate-900 dark:text-gray-400">
             <p className="">I am a third-year student at <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Duke University </span>studying <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Computer Science </span> with a minor in Visual Media Studies and a certificate in Digital Intelligence. I am a  <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Rubenstein Scholar, </span> a prestigious full-ride scholarship awarded to selected students. </p>
             <p className="mt-5 mb-16 ">I am a part of  <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">DTech Scholars,</span> a program that uplifts women in STEM, equipping me with a network of individuals who I have as a support system. I am also a member of  <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">National Society of Black Engineers (NSBE). </span>  I am passionate about inclusivity in the tech industry and the promotion of resources to underrepresented communities.</p>
           </div>
           <div className="hidden sm:block sm:snap-x sm:snap-mandatory pt-0 mt-0">
-            <h1 id="tech" className="scroll-mt-16 bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-cyan-600 prose prose-h1:{utility} subpixel-antialiased pt-0 mt-0 leading-tight text-3xl md:text-4xl text-2xl font-semibold">techstack</h1>
+            <h1 id="tech" className="scroll-mt-16 text-gray-700 dark:text-gray-300 prose prose-h1:{utility} subpixel-antialiased pt-0 mt-0 leading-tight text-3xl md:text-4xl text-2xl font-semibold">techstack</h1>
             <div className="mx-auto max-w-7xl px-4 py-2 sm:px-6 lg:px-8">
               <div className="flex flex-row basis-96 mt-6 mb-20 gap-8 flex-wrap pb-15 sm:flex sm:flex-wrap sm:justify-center sm:gap-8">
                 {[
@@ -230,7 +230,7 @@ export default function Index() {
             </div>
           </div>
           <div>
-            <h1 id="projects" className="scroll-mt-16 bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-cyan-600 prose prose-h1:{utility} subpixel-antialiased mt-10 leading-tight text-3xl md:text-4xl text-2xl font-semibold">featured projects</h1>
+            <h1 id="projects" className="scroll-mt-16 text-gray-700 dark:text-gray-300 prose prose-h1:{utility} subpixel-antialiased mt-10 leading-tight text-3xl md:text-4xl text-2xl font-semibold">featured projects</h1>
             <div className="font-extralight prose leading-loose text-slate-900 dark:text-gray-400 mb-10 pb-12">
               <div className="w-full">
                 <h1 className="mt-6 mb-0"><a className="prose text-gray-950 dark:text-gray-300 font-semibold text-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 hover:text-cyan-800 dark:hover:text-cyan-100 after:content-['_↗'] !no-underline text-lg" href="https://www.youtube.com/watch?v=YjH5zGIsbrE&t=1s" target="_blank" rel="noreferrer">DukeAttend</a></h1>
@@ -352,7 +352,7 @@ export default function Index() {
             </div>
             <div className="!pl-0 !pr-0">
               <div>
-                <h1 id="experiences" className="scroll-mt-16 bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-cyan-600 prose prose-h1:{utility} subpixel-antialiased !mt-0 !pt-0 leading-tight text-3xl md:text-4xl text-2xl font-semibold">relevant experiences</h1>
+                <h1 id="experiences" className="scroll-mt-16 text-gray-700 dark:text-gray-300 prose prose-h1:{utility} subpixel-antialiased !mt-0 !pt-0 leading-tight text-3xl md:text-4xl text-2xl font-semibold">relevant experiences</h1>
                 <div className="sm:flex sm:flex-wrap sm:space-x-16 mt-10">
                   <div>
                     <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - PRESENT</small>
@@ -428,7 +428,7 @@ export default function Index() {
                 </div>
               </div>
               <div className="mt-10 pt-10 ">
-                <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-cyan-600 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="/pdfs/resume.pdf" target="_blank" rel="noreferrer">View full resume</a>
+                <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-gray-500 dark:text-slate-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="/pdfs/resume.pdf" target="_blank" rel="noreferrer">View resume</a>
               </div>
             </div>
             <div className="text-center pt-10 pb-8 pl-0 pr-0 ml-0 mr-0" >
