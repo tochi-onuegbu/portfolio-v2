@@ -1,10 +1,10 @@
 import type { MetaFunction } from "@remix-run/node";
-import { Link } from "@remix-run/react";
+// import { Link } from "@remix-run/react";
 import DarkModeButton from "~/components/DarkModeButton";
-import { useCallback } from "react";
-import type { Container, Engine } from "tsparticles-engine";
-import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim";
+// import { useCallback } from "react";
+// import type { Container, Engine } from "tsparticles-engine";
+// import Particles from "react-tsparticles";
+// import { loadSlim } from "tsparticles-slim";
 
 // const App = () => {
 //   const particlesInit = useCallback(async (engine: Engine) => {
