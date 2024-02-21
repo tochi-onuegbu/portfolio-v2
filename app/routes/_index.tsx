@@ -430,7 +430,7 @@ communication with the back-end and iOS application</li>
                 </div>
               </div> */}
               <div className="mt-10 pt-10 ">
-                <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-gray-500 dark:text-slate-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="/pdfs/resume.pdf" target="_blank" rel="noreferrer">View resume</a>
+                <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-gray-500 dark:text-slate-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="/pdfs/resumev2.pdf" target="_blank" rel="noreferrer">View resume</a>
               </div>
             </div>
             <div className="text-center pt-10 pb-8 pl-0 pr-0 ml-0 mr-0" >
