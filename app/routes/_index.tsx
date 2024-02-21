@@ -73,7 +73,7 @@ export default function Index() {
       <div className="hidden lg:block">
         {/* <App /> */}
       </div>
-      <main className="dark:bg-gray-900 bg-stone-50">
+      <main className="dark:bg-gray-900 bg-slate-100">
         <div className="mb-25 !scroll-smooth " >
           {/* side dashboard */}
           <div>
@@ -273,7 +273,7 @@ export default function Index() {
               <div>
                 <h1 className="mt-12 mb-0"><p className="prose text-gray-950 dark:text-gray-300 font-semibold  text-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-70 duration-90 hover:text-cyan-800 dark:hover:text-cyan-100 !no-underline text-lg" >Mini Amazon</p></h1>
                 <div className="flex items-center space-x-4">
-                  <p className="mt-0">Online marketplace users can browse to shop. Simply sign in to your account to purchase the items in your cart.</p>
+                  <p className="mt-0">Online marketplace users can browse to shop, with a fully functional and integrated front-end and back-end. Simply sign in to your account to purchase the items in your cart.</p>
                 </div>
                 <div className="flex flex-wrap items-start justify-start gap-2">
                   <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
@@ -296,7 +296,7 @@ export default function Index() {
               <div>
                 <h1 className="prose text-gray-950 dark:text-gray-300 font-semibold mt-12 mb-0 text-lg">CrunchTime</h1>
                 <div className="flex items-center space-x-4">
-                  <p className="mt-0">App that helps students utilize their time by breaking big projects down into smaller "bites" — excuse the pun. </p>
+                  <p className="mt-0">An iOS application that helps students utilize their time by breaking big projects down into manageable tasks </p>
                 </div>
                 <div className="flex flex-wrap items-start justify-start gap-2">
                   <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
@@ -358,12 +358,13 @@ export default function Index() {
                     <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - PRESENT</small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
-                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codeplus.duke.edu" target="_blank" rel="noreferrer">Code+ | Software Developer</a>
+                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codeplus.duke.edu" target="_blank" rel="noreferrer">Duke Office of Information Technology | Software Engineer Intern</a>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
-                      <li className="">Collaborate with a <a className="dark:text-white text-slate-800 underline-offset-8 no-underline hover:underline " href="https://codeplus.duke.edu/projects/managing-events-and-attendance" target="_blank" rel="noreferrer">team of six students</a> using Xcode's Storyboard interface to develop an attendance tracking app with NFC technology to boost classroom  attendance by at least 75% </li>
-                      <li>Using Ruby on Rails and PostgreSQL to implement the back-end web application</li>
-                      <li>Researching optimal user interface design to streamline attendance records for professors and students</li>
-                      <li>Meet with <a className="dark:text-white text-slate-800 underline-offset-8 no-underline hover:underline" href="https://ece.duke.edu/faculty/andrew-hilton" target="_blank" rel="noreferrer">stakeholders</a> every week to refine the minimal viable product</li>
+                      <li className="">Collaborate with a <a className="dark:text-white text-slate-800 underline-offset-8 no-underline hover:underline " href="https://codeplus.duke.edu/projects/managing-events-and-attendance" target="_blank" rel="noreferrer">team of six students</a> using SwiftUI to develop an attendance tracking app with NFC technology, boosting classroom  attendance by at least 75% </li>
+                      <li>Developing a full-stack web application using Ruby on Rails, PostgreSQL, and Docker to allow
+communication with the back-end and iOS application</li>
+                      <li>Perform code reviews to optimize database query runtime efficiency</li>
+                      <li>Incorporate feedback from <a className="dark:text-white text-slate-800 underline-offset-8 no-underline hover:underline" href="https://ece.duke.edu/faculty/andrew-hilton" target="_blank" rel="noreferrer">stakeholders</a>, team leads, and Duke OIT officials to refine the minimal viable product</li>
                     </ul>
                   </div>
                 </div>
@@ -374,11 +375,12 @@ export default function Index() {
                     <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - PRESENT</small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
-                    <p className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0  hover:text-cyan-800 dark:hover:text-cyan-100 text-lg">Project | Web Developer</p>
+                    <p className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0  hover:text-cyan-800 dark:hover:text-cyan-100 text-lg">Olympic Gold Quest | Software Developer Intern</p>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
-                      <li>Building a database-driven website (using Python, Flask, and PostgreSQL) from the ground up that mimics the functionalities of an online marketplace such as Amazon</li>
-                      <li>Collaborate closely with my team on the overall database, website designs, and API integrations</li>
-                      <li>Conduct weekly stand-up meetings on Microsoft Teams with project team</li>
+                      <li>Integrating the front-end and back-end using React, Flask, and Django</li>
+                      <li>Refining the database to optimize data management and user interaction</li>
+                      <li>Participating in stakeholder meetings to gather feedback, ensuring the product's alignment with key objectives</li>
+                      <li>Implementing security measures to safeguard the website against potential threats and vulnerabilities</li>
                     </ul>
                   </div>
                 </div>
@@ -392,13 +394,13 @@ export default function Index() {
                     <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codingmindsacademy.com" target="_blank" rel="noreferrer">Coding Minds | Instructor</a>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
                       <li>Lead weekly one-on-one, project-based HTML, CSS, JS, and Roblox classes to clients using Replit IDE</li>
-                      <li>Guide clients to deploy their website</li>
+                      <li>Guide clients to deploy their website using Fly.io, Replit, and GitHub</li>
                       <li>Revise the HTML curriculum development and web prototyping</li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div>
+              {/* <div>
                 <div className="sm:flex sm:flex-wrap sm:space-x-20 mt-10">
                   <div>
                     <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2022 - 2023</small>
@@ -412,8 +414,8 @@ export default function Index() {
                     </ul>
                   </div>
                 </div>
-              </div>
-              <div>
+              </div> */}
+              {/* <div>
                 <div className="sm:flex sm:flex-wrap sm:space-x-32 mt-10">
                   <div>
                     <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2022 </small>
@@ -426,7 +428,7 @@ export default function Index() {
                     </ul>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="mt-10 pt-10 ">
                 <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-gray-500 dark:text-slate-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="/pdfs/resume.pdf" target="_blank" rel="noreferrer">View resume</a>
               </div>
