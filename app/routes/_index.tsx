@@ -333,7 +333,7 @@ export default function Index() {
                     Figma
                   </button>
                   <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 duration-300 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-                    Android Jetpack Compose
+                    Kotlin
                   </button>
                   <button className="items-start justify-start transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
                     Fullstack
@@ -362,6 +362,9 @@ export default function Index() {
                     Git
                   </button>
                   <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+                    React
+                  </button>
+                  <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
                     Fullstack
                   </button>
                 </div>
@@ -376,6 +379,9 @@ export default function Index() {
                     Swift
                   </button>
                   <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+                    Kotlin
+                  </button>
+                  <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
                     Docker
                   </button>
                   <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
@@ -386,6 +392,9 @@ export default function Index() {
                   </button>
                   <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
                     Fullstack
+                  </button>
+                  <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 duration-300 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+                    Mobile Development
                   </button>
                 </div>
               </div>
@@ -402,10 +411,13 @@ export default function Index() {
                     Git
                   </button>
                   <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-                    Frontend
+                    Figma
                   </button>
                   <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 dark:hover:bg-gray-700 duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-                    Figma
+                    Frontend
+                  </button>
+                  <button className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 shadow hover:shadow-lg text-sm rounded-full px-2 py-1 bg-gray-400 dark:bg-cyan-700 text-white hover:bg-gray-700 duration-300 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+                    Mobile Development
                   </button>
                 </div>
               </div>
@@ -454,51 +466,66 @@ export default function Index() {
                 <h1 id="experiences" className="scroll-mt-16 text-gray-800 dark:text-gray-300 prose prose-h1:{utility} subpixel-antialiased !mt-0 !pt-0 leading-tight text-3xl md:text-4xl text-2xl font-semibold">relevant experiences</h1>
                 <div className="sm:flex sm:flex-wrap sm:space-x-16 mt-10">
                   <div>
-                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - 2024</small>
+                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">June - August 2024</small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
-                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codeplus.duke.edu" target="_blank" rel="noreferrer">Software Engineer Intern | Prudential Financial</a>
+                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 hover:text-cyan-800 dark:hover:text-cyan-100 text-lg">Software Engineer Intern | Prudential Financial</a>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
-                      <li className="">Collaborate with a <a className="dark:text-white text-slate-800 underline-offset-8 no-underline hover:underline " href="https://codeplus.duke.edu/projects/managing-events-and-attendance" target="_blank" rel="noreferrer">team of six students</a> using SwiftUI to develop an attendance tracking app with NFC technology, boosting classroom  attendance by at least 75% </li>
-                      <li>Developing a full-stack web application using Ruby on Rails, PostgreSQL, and Docker to allow
-                          communication with the back-end and iOS application</li>
-                      <li>Perform code reviews to optimize database query runtime efficiency</li>
-                      <li>Incorporate feedback from <a className="dark:text-white text-slate-800 underline-offset-8 no-underline hover:underline" href="https://ece.duke.edu/faculty/andrew-hilton" target="_blank" rel="noreferrer">stakeholders</a>, team leads, and Duke OIT officials to refine the minimal viable product</li>
+                      <li className="">Designed and implemented the UI/UX of a full-stack model price calculator web application using React for the front-end and Python/Flask for the back-end, replacing outdated Excel processes with an automated solution
+                      </li>
+                      <li>Resolved 97% of critical Java vulnerabilities by leading coordinated patching efforts with domestic/offshore teams</li>
+                      <li>Diagnosed and resolved recurring server errors, improving system stability and increasing efficiency
+                      </li>
+                      <li>Streamlined CI/CD pipelines in Jenkins by merging processes into a continuous workflow, reducing pipeline check
+                      times, and improving deployment efficiency</li>
                     </ul>
                   </div>
                 </div>
                 <div className="sm:flex sm:flex-wrap sm:space-x-16 mt-10">
                   <div>
-                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - 2024</small>
+                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">May 2023 - May 2024</small>
+                  </div>
+                  <div className="flex-1 flex flex-col space-y-1">
+                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codeplus.duke.edu" target="_blank" rel="noreferrer">Software Engineer | Duke Office of Information Technology</a>
+                    <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
+                      <li>Contributed to the feature expansion for the iOS mobile app, adding key functionalities and optimization for production</li>
+                      <li>Utilized Docker to containerize the application's backend services, streamlining development and testing workflows</li>
+                      <li>Integrated API calls from cross-functional teams, collaborating closely with back-end developers to align their
+                      services with our app requirements</li>
+                      <li>Spearheaded the development of the Android app, ensuring feature parity with the iOS version to achieve a
+                      seamless user experience across OS platforms</li>
+                    </ul>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
                     <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codeplus.duke.edu" target="_blank" rel="noreferrer">Software Engineer Intern | Duke Office of Information Technology</a>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
-                      <li className="">Collaborate with a <a className="dark:text-white text-slate-800 underline-offset-8 no-underline hover:underline " href="https://codeplus.duke.edu/projects/managing-events-and-attendance" target="_blank" rel="noreferrer">team of six students</a> using SwiftUI to develop an attendance tracking app with NFC technology, boosting classroom  attendance by at least 75% </li>
-                      <li>Developing a full-stack web application using Ruby on Rails, PostgreSQL, and Docker to allow
-                          communication with the back-end and iOS application</li>
-                      <li>Perform code reviews to optimize database query runtime efficiency</li>
-                      <li>Incorporate feedback from <a className="dark:text-white text-slate-800 underline-offset-8 no-underline hover:underline" href="https://ece.duke.edu/faculty/andrew-hilton" target="_blank" rel="noreferrer">stakeholders</a>, team leads, and Duke OIT officials to refine the minimal viable product</li>
+                      <li>Designed the UI/UX and built the front-end of a mobile iOS attendance-tracking app to boost classroom attendance by 75%</li>
+                      <li>Developed a full-stack web application using Ruby on Rails, Docker, and PostgreSQL to allow for communication with the web and iOS app</li>
+                      <li>Performed code reviews to optimize database query runtime efficiency and improve code quality</li>
+                      <li>Incorporated feedback from stakeholders, team leads, and Duke OIT officials to refine the minimum viable product</li>
                     </ul>
                   </div>
                 </div>
               </div>
+
               <div>
                 <div className="sm:flex sm:flex-wrap sm:space-x-14 mt-10">
                   <div>
-                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - 2024</small>
+                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">September 2023 - February 2024</small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
                     <p className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0  hover:text-cyan-800 dark:hover:text-cyan-100 text-lg">Software Developer Intern | Olympic Gold Quest</p>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
-                      <li>Integrating the front-end and back-end using React, Flask, and Django</li>
-                      <li>Refining the database to optimize data management and user interaction</li>
-                      <li>Participating in stakeholder meetings to gather feedback, ensuring the product's alignment with key objectives</li>
-                      <li>Implementing security measures to safeguard the website against potential threats and vulnerabilities</li>
+                      <li>Integrated the front-end and back-end using React, Flask, and Django</li>
+                      <li>Refined the database to optimize data management and user interaction</li>
+                      <li>Participated in stakeholder meetings to gather feedback, ensuring the product's alignment with key objectives</li>
+                      <li>Implemented security measures to safeguard the website against potential threats and vulnerabilities</li>
                     </ul>
                   </div>
                 </div>
               </div>
+
+
               <div>
                 <div className="sm:flex sm:flex-wrap sm:space-x-14 mt-10">
                   <div>
@@ -507,9 +534,9 @@ export default function Index() {
                   <div className="flex-1 flex flex-col sm:space-y-1">
                     <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codingmindsacademy.com" target="_blank" rel="noreferrer">Instructor | Coding Minds</a>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
-                      <li>Lead weekly one-on-one, project-based HTML, CSS, JS, and Roblox classes to clients using Replit IDE</li>
-                      <li>Guide clients to deploy their website using Fly.io, Replit, and GitHub</li>
-                      <li>Revise the HTML curriculum development and web prototyping</li>
+                      <li>Led weekly one-on-one, project-based HTML, CSS, JS, and Roblox classes to clients using Replit IDE</li>
+                      <li>Guided clients to deploy their website using Fly.io, Replit, and GitHub</li>
+                      <li>Revised the HTML curriculum development and web prototyping</li>
                     </ul>
                   </div>
                 </div>
@@ -548,7 +575,7 @@ export default function Index() {
               </div>
             </div>
             <div className="text-center pt-10 pb-8 pl-0 pr-0 ml-0 mr-0" >
-              <div className="hidden sm:block text-center items-center prose font-sans col-span-full sm:text-base text-sm text-gray-400 dark:text-gray-600 mt-20"><span>Developed using Remix and Tailwind.</span></div>
+              <div className="hidden sm:block text-center items-center prose font-sans col-span-full sm:text-base text-sm text-gray-400 dark:text-gray-600 mt-20"><span>Developed using React and Tailwind.</span></div>
               <div className="hidden sm:block text-center items-center prose font-sans mb-12 col-span-full sm:text-base text-sm text-gray-400 dark:text-gray-600"><span>All rights reserved © Tochi Onuegbu 2023</span></div>
               <span className="sm:hidden text-center items-center prose font-sans mb-12 text-xs text-gray-400 dark:text-gray-600">Developed using Remix and Tailwind. All rights reserved © Tochi Onuegbu 2023</span>
             </div>
