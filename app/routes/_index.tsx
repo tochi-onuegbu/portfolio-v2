@@ -133,7 +133,7 @@ export default function Index() {
         <div className="lg:ml-[50%] ml-5 sm:ml-20 p-10">
           <h1 id="about-me" className="scroll-mt-16 text-gray-800 dark:text-gray-300 prose prose-h1:{utility} subpixel-antialiased mt-20 pt-19 leading-tight text-3xl md:text-4xl text-2xl font-semibold">about me</h1>
           <div className="font-extralight prose leading-loose text-slate-900 dark:text-gray-400">
-            <p className="">I am a third-year student at <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Duke University </span>studying <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Computer Science </span> with a minor in Visual Media Studies and a certificate in Digital Intelligence. I am a  <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Rubenstein Scholar, </span> a prestigious full-ride scholarship awarded to selected students. </p>
+            <p className="">I am a fourth-year student at <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Duke University </span>studying <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Computer Science </span> with a minor in Economics. I am a  <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">Rubenstein Scholar, </span> a prestigious full-ride scholarship awarded to selected students. </p>
             <p className="mt-5 mb-16 ">I am a part of  <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">DTech Scholars,</span> a program that uplifts women in STEM, equipping me with a network of individuals who I have as a support system. I am also a member of  <span className="font-normal text-slate-950 dark:text-gray-300 underline-offset-8 no-underline ">National Society of Black Engineers (NSBE). </span>  I am passionate about inclusivity in the tech industry and the promotion of resources to underrepresented communities.</p>
           </div>
           <div className="hidden sm:block sm:snap-x sm:snap-mandatory pt-0 mt-0">
@@ -355,14 +355,29 @@ export default function Index() {
                 <h1 id="experiences" className="scroll-mt-16 text-gray-800 dark:text-gray-300 prose prose-h1:{utility} subpixel-antialiased !mt-0 !pt-0 leading-tight text-3xl md:text-4xl text-2xl font-semibold">relevant experiences</h1>
                 <div className="sm:flex sm:flex-wrap sm:space-x-16 mt-10">
                   <div>
-                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - PRESENT</small>
+                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - 2024</small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
-                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codeplus.duke.edu" target="_blank" rel="noreferrer">Duke Office of Information Technology | Software Engineer Intern</a>
+                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codeplus.duke.edu" target="_blank" rel="noreferrer">Software Engineer Intern | Prudential Financial</a>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
                       <li className="">Collaborate with a <a className="dark:text-white text-slate-800 underline-offset-8 no-underline hover:underline " href="https://codeplus.duke.edu/projects/managing-events-and-attendance" target="_blank" rel="noreferrer">team of six students</a> using SwiftUI to develop an attendance tracking app with NFC technology, boosting classroom  attendance by at least 75% </li>
                       <li>Developing a full-stack web application using Ruby on Rails, PostgreSQL, and Docker to allow
-communication with the back-end and iOS application</li>
+                          communication with the back-end and iOS application</li>
+                      <li>Perform code reviews to optimize database query runtime efficiency</li>
+                      <li>Incorporate feedback from <a className="dark:text-white text-slate-800 underline-offset-8 no-underline hover:underline" href="https://ece.duke.edu/faculty/andrew-hilton" target="_blank" rel="noreferrer">stakeholders</a>, team leads, and Duke OIT officials to refine the minimal viable product</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="sm:flex sm:flex-wrap sm:space-x-16 mt-10">
+                  <div>
+                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - 2024</small>
+                  </div>
+                  <div className="flex-1 flex flex-col space-y-1">
+                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codeplus.duke.edu" target="_blank" rel="noreferrer">Software Engineer Intern | Duke Office of Information Technology</a>
+                    <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
+                      <li className="">Collaborate with a <a className="dark:text-white text-slate-800 underline-offset-8 no-underline hover:underline " href="https://codeplus.duke.edu/projects/managing-events-and-attendance" target="_blank" rel="noreferrer">team of six students</a> using SwiftUI to develop an attendance tracking app with NFC technology, boosting classroom  attendance by at least 75% </li>
+                      <li>Developing a full-stack web application using Ruby on Rails, PostgreSQL, and Docker to allow
+                          communication with the back-end and iOS application</li>
                       <li>Perform code reviews to optimize database query runtime efficiency</li>
                       <li>Incorporate feedback from <a className="dark:text-white text-slate-800 underline-offset-8 no-underline hover:underline" href="https://ece.duke.edu/faculty/andrew-hilton" target="_blank" rel="noreferrer">stakeholders</a>, team leads, and Duke OIT officials to refine the minimal viable product</li>
                     </ul>
@@ -372,10 +387,10 @@ communication with the back-end and iOS application</li>
               <div>
                 <div className="sm:flex sm:flex-wrap sm:space-x-14 mt-10">
                   <div>
-                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - PRESENT</small>
+                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - 2024</small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
-                    <p className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0  hover:text-cyan-800 dark:hover:text-cyan-100 text-lg">Olympic Gold Quest | Software Developer Intern</p>
+                    <p className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0  hover:text-cyan-800 dark:hover:text-cyan-100 text-lg">Software Developer Intern | Olympic Gold Quest</p>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
                       <li>Integrating the front-end and back-end using React, Flask, and Django</li>
                       <li>Refining the database to optimize data management and user interaction</li>
@@ -388,10 +403,10 @@ communication with the back-end and iOS application</li>
               <div>
                 <div className="sm:flex sm:flex-wrap sm:space-x-14 mt-10">
                   <div>
-                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - PRESENT</small>
+                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - 2024</small>
                   </div>
                   <div className="flex-1 flex flex-col sm:space-y-1">
-                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codingmindsacademy.com" target="_blank" rel="noreferrer">Coding Minds | Instructor</a>
+                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codingmindsacademy.com" target="_blank" rel="noreferrer">Instructor | Coding Minds</a>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
                       <li>Lead weekly one-on-one, project-based HTML, CSS, JS, and Roblox classes to clients using Replit IDE</li>
                       <li>Guide clients to deploy their website using Fly.io, Replit, and GitHub</li>
