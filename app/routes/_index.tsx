@@ -445,7 +445,7 @@ export default function Index() {
                 </div>
               </div>
               <div>
-                <h1 className="mt-12 mb-0"><a className="prose text-gray-950 dark:text-gray-300 font-semibold  text-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-70 duration-90 hover:text-cyan-800 dark:hover:text-cyan-100 after:content-['_↗'] !no-underline text-lg" href="https://github.com/tochi-onuegbu/snake-game" target="_blank" rel="noreferrer">Snake Game</a></h1>
+                <h1 className="mt-12 mb-0"><a className="prose text-gray-950 dark:text-gray-300 font-semibold  text-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-70 duration-90 hover:text-cyan-800 dark:hover:text-cyan-100 !no-underline text-lg">Snake Game</a></h1>
                 <div className="flex items-start space-x-4">
                   <p className="mt-0 pt-0">Simple program that enables the active user to control a snake
                     and eat as many apples as possible. Just don't run into the walls
@@ -483,10 +483,10 @@ export default function Index() {
                 </div>
                 <div className="sm:flex sm:flex-wrap sm:space-x-16 mt-10">
                   <div>
-                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">May 2023 - May 2024</small>
+                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">Jan - May 2024</small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
-                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codeplus.duke.edu" target="_blank" rel="noreferrer">Software Engineer | Duke Office of Information Technology</a>
+                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 hover:text-cyan-800 dark:hover:text-cyan-100 text-lg">Software Engineer | Duke Office of Information Technology</a>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0 overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
                       <li>Contributed to the feature expansion for the iOS mobile app, adding key functionalities and optimization for production</li>
                       <li>Utilized Docker to containerize the application's backend services, streamlining development and testing workflows</li>
@@ -495,6 +495,11 @@ export default function Index() {
                       <li>Spearheaded the development of the Android app, ensuring feature parity with the iOS version to achieve a
                       seamless user experience across OS platforms</li>
                     </ul>
+                  </div>
+                </div>
+                <div className="sm:flex sm:flex-wrap sm:space-x-16 mt-10">
+                  <div>
+                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">May - Aug 2023</small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
                     <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codeplus.duke.edu" target="_blank" rel="noreferrer">Software Engineer Intern | Duke Office of Information Technology</a>
@@ -511,7 +516,7 @@ export default function Index() {
               <div>
                 <div className="sm:flex sm:flex-wrap sm:space-x-14 mt-10">
                   <div>
-                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">September 2023 - February 2024</small>
+                    <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">Sep - Feb 2022</small>
                   </div>
                   <div className="flex-1 flex flex-col space-y-1">
                     <p className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0  hover:text-cyan-800 dark:hover:text-cyan-100 text-lg">Software Developer Intern | Olympic Gold Quest</p>
@@ -532,7 +537,7 @@ export default function Index() {
                     <small className="hidden sm:block uppercase prose font-sans text-gray-900 dark:text-gray-300 font-extralight mb-0 text-sm">2023 - 2024</small>
                   </div>
                   <div className="flex-1 flex flex-col sm:space-y-1">
-                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 after:content-['_↗'] hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" href="https://codingmindsacademy.com" target="_blank" rel="noreferrer">Instructor | Coding Minds</a>
+                    <a className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-70 duration-300 prose text-slate-800 dark:text-gray-300 font-medium mb-0 hover:text-cyan-800 dark:hover:text-cyan-100 text-lg" >Instructor | Coding Minds</a>
                     <ul className="list-disc list-inside prose text-slate-900 dark:text-gray-400 font-light mt-0overflow-wrap break-word font-extralight leading-loose lg:mr-4 lg:pr-0 text-base" >
                       <li>Led weekly one-on-one, project-based HTML, CSS, JS, and Roblox classes to clients using Replit IDE</li>
                       <li>Guided clients to deploy their website using Fly.io, Replit, and GitHub</li>
